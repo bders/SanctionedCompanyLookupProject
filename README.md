@@ -1,37 +1,10 @@
+WIP readme
+
+Credit to @maslick for his react component and base:
+
 # =koder=
 QR/bar code scanner for the Browser
-
-[![npm](https://img.shields.io/npm/v/@maslick/koder.svg)](https://www.npmjs.com/package/@maslick/koder)
-[![Build Status](https://github.com/maslick/koder-react/workflows/build/badge.svg)](https://github.com/maslick/koder-react/actions?query=workflow%3Abuild)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-
-## :bulb: Demo
-https://qr.maslick.tech
-
-
-## 🚀 Features
-* QR/barcode module implemented in WebAssembly
-* Barcode support (UPC-A, UPC-E, EAN-8, EAN-13, I25, CODE-128)
-* Uses Zbar C++ library (version [0.23.90](https://github.com/mchehab/zbar))
-* Packaged as PWA (caching files with Service Worker, Add to Home Screen)
-* Mobile first (can be used on a Laptop as well)
-* Multiplatform (iOS, Android, Desktop)
-* QR/bar code recognition logic is performed off the browser's Main thread (i.e. Web Worker)
-* *koder* React component supports a [jsqr](https://www.npmjs.com/package/jsqr) based Web Worker (see [jsQrWorker.js](./public/jsQrWorker.js))
-* Emscripten-zbar-sdk [Docker image](https://hub.docker.com/r/maslick/emscripten-zbar-sdk) based on `emscripten/emsdk`, [Dockerfile](./docker/Dockerfile)
-* ReactJS [component](./src/components/scan.js)
-* Vanilla JS [example](https://github.com/maslick/koder-vanilla-js)
-* :new: Turn on/off the beep sound
-* :new: Support for UPN QR (Slovenia only)
-* :new: EU Digital Covid Certificate validator (vaccination, test), works in ``offline`` mode!
-* :new: Emscripten v3.1.1
-* :new: npm package
-
-
-<p align="center" >
-  <img src="./screenshots/app_1.png" width="400px" />
-  <img src="./screenshots/app_2.png" width="400px" />
-</p>
+More info: https://github.com/maslick/koder
 
 ## ⚡ Usage
 
